@@ -1,0 +1,35 @@
+{
+    "name": "igui/number-text",
+    "description": "",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://bitbucket.org/igui-br/number-text",
+    "authors": [
+        {
+            "name": "Luis Henrique G. Vieira",
+            "email": "luisvieira@igui.com"
+        },
+        {
+            "name": "Adriano Gasparini",
+            "email": "adrianogasparini@igui.com"
+        },
+        {
+            "name": "Victor Guedes Queiroz",
+            "email": "victorguedes@igui.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "zendframework/zendframework": "2.5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "NumberText\\": "/src"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
